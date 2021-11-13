@@ -104,7 +104,7 @@ Customize the proxy parameters
 |---|---|---|
 |host|127.0.0.1|Proxy server address|
 |port|8080| Listener port for the proxy|
-|type | No proxy (2)| Proxy types: <ul><li>System  = **0**</li> <li>SOCKS5 = **1** </li> <li>No proxy = **2** </li> <li>HTTP(S) = **3** </li> </ul>  |
+|type | **2** (No proxy)| Proxy types: <br> **0** = System<br> **1** =  SOCKS5<br>**2**  - No proxy</br> **3**  = HTTP(S) |
 
 
 ## Adding a user acount to connect to the ownCloud Server
