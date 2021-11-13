@@ -2,17 +2,24 @@
 
 ownCloud is an open-source application for secure file sync, sharing, and collaboration via a single point of access. Teams can work on their data from any location and with any device.
 
-This quick start is relevant for ownCloud Server v10.8 and is intended for:
-- Administrators who want to install and configure an ownCloud server, and enable server access for users. 
-- Users who want to connect to an ownCloud server via a desktop or mobile client.
+This quick start is relevant for ownCloud Server v10.8 and :
+- Administrators who want to install and configure an ownCloud server, and enable server access for users. [install](https://github.com/YajB/Owncloud_project/blob/opencloud_task/owncloud.md#owncloud-installation-and-configuration-for-administrators)
+- Users: Connect to an ownCloud server via a desktop or mobile client. [connect](https://github.com/YajB/Owncloud_project/blob/opencloud_task/owncloud.md#hconnect-to-owncloud-server)
 
 
-1. Admins: Before you install
-1. Admins: Download the relevant ownCloud package for your environment
-1. Admins: Install the ownCloud package on your server
-1. Admins: Configure the ownCloud server
-1. Admins: Add users and enable access
-1. Users: Connect to an ownCloud server
+# ownCloud installation and configuration for administrators
+
+## Before you begin
+
+If you haven't already, review the considerations and system requirements for your ownCloud Server installation
+
+1. Installation options and recommended installation
+1. Prereqs and environment preparations
+1. Download the relevant ownCloud package for your environment
+1. Install the ownCloud package: Wizard or manual installation
+1. Configure ownCloud server
+1. Add users and enable access
+
 
 
 ##  What do I need to do before I install the ownCloud server? 
@@ -20,6 +27,18 @@ This quick start is relevant for ownCloud Server v10.8 and is intended for:
 This section points you to the requirements, prerequisites, and preparations you need to make for your environment  
 
 * Verify that your system meets the [system requirements](https://doc.owncloud.com/server/10.8/admin_manual/installation/system_requirements.html) for the ownCloud server installation. 
+
+
+[General recommendations](https://doc.owncloud.com/server/10.8/admin_manual/installation/deployment_recommendations.html#general-recommendations).
+
+
+|Platform| Options| Recommended environment|
+|---|---|---|
+|Operating system (64 bit)| Linux or Ubuntu 20.04 LTS |
+|Database | MariaDB 10.5|
+| Web server| Apache 2.4 with [prefork and mod_php](https://doc.owncloud.com/server/10.8/admin_manual/installation/manual_installation/manual_installation.html#configure-the-web-server)|
+|PHP Runtime | 7.4 |
+
 
 ### Prepare your server 
 
@@ -67,10 +86,8 @@ The most common installation options are Choose the installation option that's r
 
 1. Download the installation package
 
-
-
-
-cvv
+<!-- quick start-->
+Installation wizard https://doc.owncloud.com/server/10.8/admin_manual/installation/installation_wizard.html#quick-start
 
 
 ## Configuring the ownCloud server
@@ -84,9 +101,7 @@ Customize the proxy parameters
 |---|---|---|
 |host|127.0.0.1|Proxy server address|
 |port|8080| Listener port for the proxy|
-|type | 2| Proxy types: <br> * **0** for System <br> * **1** for SOCKS5<br> * **2** for No proxy<br>* **3** for HTTP(S) |
-
-
+|type | No proxy (2)| Proxy types: <ul><li>System  = **0**</li> <li>SOCKS5 = **1** </li> <li>No proxy = **2** </li> <li>HTTP(S) = **3** </li> </ul>  |
 
 
 ## Adding a user acount to connect to the ownCloud Server
@@ -94,14 +109,16 @@ Customize the proxy parameters
  Add a user account
 
 
+# Connect to ownCloud Server
+
 
 ## How do I download, install, and configure my ownCloud client?
 
-Use the newest ownCloud desktop synchronization client for your ownCloud server. 
-Download the client [here]( <!-- placeholder -->).
-The detailed desktop client requirements are [here.](https://doc.owncloud.com/desktop/2.9/installing.html#system-requirements|
+Review the [detailed desktop client requirements](https://doc.owncloud.com/desktop/2.9/installing.html#system-requirements|) and make sure to use the latest ownCloud desktop synchronization client for your ownCloud server version.
 
+**Mac OS X and Windows users:** Download the client from the [ownCloud download page](https://owncloud.com/download/#desktop-clients) and double-click to launch the installation wizard. 
 
+**Linux users:** Download the 
 ## How do I connect to the ownCloud server?
 
 You can use the following web servers: 
