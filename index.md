@@ -11,7 +11,7 @@ This quick start is relevant for ownCloud Server v10.8 and :
 
 ## Before you begin
 
-If you haven't already, review the considerations and system requirements for your ownCloud Server installation
+If you haven't already, review the considerations and system requirements for your ownCloud Server installation.
 
 1. Installation options and recommended installation
 1. Prereqs and environment preparations
@@ -32,11 +32,11 @@ This section points you to the requirements, prerequisites, and preparations you
 [General recommendations](https://doc.owncloud.com/server/10.8/admin_manual/installation/deployment_recommendations.html#general-recommendations).
 
 
-|Platform| Options| Recommended environment|
-|---|---|---|
+|Platform| Recommended environment|
+|---|---|
 |Operating system (64 bit)| Linux or Ubuntu 20.04 LTS |
 |Database | MariaDB 10.5|
-| Web server| Apache 2.4 with [prefork and mod_php](https://doc.owncloud.com/server/10.8/admin_manual/installation/manual_installation/manual_installation.html#configure-the-web-server)|
+|Web server| Apache 2.4 with [prefork and mod_php](https://doc.owncloud.com/server/10.8/admin_manual/installation/manual_installation/manual_installation.html#configure-the-web-server)|
 |PHP Runtime | 7.4 |
 
 
@@ -44,6 +44,7 @@ This section points you to the requirements, prerequisites, and preparations you
 
 - [Ubuntu 20.04 preparation guide for PHP 7.4](https://doc.owncloud.com/server/10.8/admin_manual/installation/manual_installation/server_prep_ubuntu_20.04.html)
 - [Ubuntu 18.04 preparation guide for PHP versions up to 7.3](https://doc.owncloud.com/server/10.8/admin_manual/installation/manual_installation/server_prep_ubuntu_18.04.html)
+
 ### Install a database
 
 ### Configure the Apache web server
