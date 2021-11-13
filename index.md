@@ -1,4 +1,4 @@
-#  ownCloud Quick Start
+#  ownCloud Server Quick Start
 
 ownCloud is an open-source application for secure file sync, sharing, and collaboration via a single point of access. Teams can work on their data from any location and with any device.
 
@@ -7,9 +7,9 @@ This quick start is relevant for ownCloud Server v10.8 and :
 - Users who want to connect to an ownCloud server via a desktop or mobile client. [connect](https://github.com/YajB/Owncloud_project/blob/opencloud_task/owncloud.md#hconnect-to-owncloud-server)
 
 
-# ownCloud installation and configuration for administrators
+## ownCloud installation and configuration for administrators
 
-## Before you begin
+### Before you begin
 
 If you haven't already, review the considerations and system requirements for your ownCloud Server installation.
 
@@ -74,10 +74,10 @@ The most common installation options are Choose the installation option that's r
 <!-- what are the installation procedures?  There are so many options, I can't map them to the different downloads-->
 
 
-## What are my installation options and where can I download the installation files from? 
+### What are my installation options and where can I download the installation files from? 
 
 
-## Installing ownCloud Server v10.8 
+### Installing ownCloud Server v10.8 
 
 [Linux package manager installation](https://doc.owncloud.com/server/10.8/admin_manual/installation/linux_packetmanager_install.html#add-the-owncloud-repository) 
 
@@ -111,7 +111,7 @@ Customize the proxy parameters
  Add a user account
 
 
-# Connect to ownCloud Server
+## Connect to ownCloud Server
 
 
 ## How do I download, install, and configure my ownCloud client?

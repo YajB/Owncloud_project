@@ -1,4 +1,4 @@
-# Owncloud_project - notes
+# ownCloud_project - notes
 Bogging down in details and markdown issues. 
 In Kramdown, I know how to format branching tabs, which would have been useful for this doc: I'd have separated the Admin  Installation/Configuration and User Connect to server flows into tabs
 
