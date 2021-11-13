@@ -4,7 +4,7 @@ ownCloud is an open-source application for secure file sync, sharing, and collab
 
 This quick start is relevant for ownCloud Server v10.8 and :
 - Administrators who want to install and configure an ownCloud server, and enable server access for users. [install](https://github.com/YajB/Owncloud_project/blob/opencloud_task/owncloud.md#owncloud-installation-and-configuration-for-administrators)
-- Users: Connect to an ownCloud server via a desktop or mobile client. [connect](https://github.com/YajB/Owncloud_project/blob/opencloud_task/owncloud.md#hconnect-to-owncloud-server)
+- Users who want to connect to an ownCloud server via a desktop or mobile client. [connect](https://github.com/YajB/Owncloud_project/blob/opencloud_task/owncloud.md#hconnect-to-owncloud-server)
 
 
 # ownCloud installation and configuration for administrators
@@ -98,6 +98,7 @@ Configure the server IP address and port
 The configuration file location
 
 Customize the proxy parameters
+
 | Variable |Default| Description|
 |---|---|---|
 |host|127.0.0.1|Proxy server address|
