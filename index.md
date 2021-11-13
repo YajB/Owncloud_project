@@ -3,12 +3,13 @@
 ownCloud is an open-source application for secure file sync, sharing, and collaboration via a single point of access. Teams can work on their data from any location and with any device.
 
 This quick start is relevant for ownCloud Server v10.8 and :
-- Administrators who want to install and configure an ownCloud server, and enable server access for users. [install](https://github.com/YajB/Owncloud_project/blob/opencloud_task/owncloud.md#owncloud-installation-and-configuration-for-administrators)
+- Administrators who want to install and configure an ownCloud server, and enable server access for users. [install](https://github.com/YajB/Owncloud_project/index.md#owncloud-installation-and-configuration-for-administrators)
 - Users who want to connect to an ownCloud server via a desktop or mobile client. [connect](https://github.com/YajB/Owncloud_project/blob/opencloud_task/owncloud.md#hconnect-to-owncloud-server)
 
 
 ## ownCloud installation and configuration for administrators
 
+text
 ### Before you begin
 
 If you haven't already, review the considerations and system requirements for your ownCloud Server installation.
